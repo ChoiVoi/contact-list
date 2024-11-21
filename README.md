@@ -23,7 +23,7 @@ npm start
 
 ## Deployment
 The application is deployed using Vercel. You can access the live version at the following link:
-[Live Version](jc-contact-list.vercel.app)
+[Live Version](https://jc-contact-list.vercel.app/)
 
 ## Data Source
 This project uses [JSONPlaceholder](https://jsonplaceholder.typicode.com/) as a data source for demo purposes. JSONPlaceholder provides a fake online REST API for testing and prototyping. You can learn more [here](https://jsonplaceholder.typicode.com/guide/).
