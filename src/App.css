@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+}
+
+.contacts-container {
+    padding: 15px;
+}
+
+.contacts-title {
+    text-align: center;
+}
+
+.contacts-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+}
+
+.contact-card {
+    min-width: 300px;
+    max-width: 350px;
+    border: 1px solid #ccc
+}
+
+.contact-card:hover {
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+    transform: scale(1.05);
+    border: 1px solid #1976d2
+}
+
+.contact-name {
+    color: #1976d2; 
+    font-weight: bold;
+}
+
+.search-filter-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 30px;
+}
+
+.search-input {
+    width: 100%;
+}
+
+.filter-options {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .contacts-grid {
+      padding: 10px;
+      gap: 10px;
+  }
+
+  .filter-options {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .search-filter-container {
+      padding: 10px;
+  }
+}
